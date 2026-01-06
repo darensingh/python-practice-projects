@@ -180,4 +180,9 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# my files to ignore
 practice.py
+test.py
+scratch.py
+playground.py
+sandbox.py
