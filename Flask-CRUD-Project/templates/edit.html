@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
+    <title>Edits Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Update user details</h1>
+      <form method="POST" action="{{url_for('update', user_id=user[0])}}">
+        <input name="username" value="{{ user[1] }}" />
+        <button type="submit">Update</button>
+      </form>
+    </div>
+  </body>
+</html>
