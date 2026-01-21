@@ -1,0 +1,18 @@
+{% extends 'base.html' %} {% block body %}
+<h2>Welcome to Login Page</h2>
+<form method="post" action="/login">
+  <ul>
+    <p>
+      <li>Name: <input type="text" name="username" placeholder="Enter name" required autofocus /></li>
+    </p>
+    <p>
+      <li>Email: <input type="Email" name="email" placeholder="Enter email" required autofocus /></li>
+    </p>
+    <p>
+      <li>Password: <input type="Password" name="password" placeholder="Enter password" required autofocus /></li>
+    </p>
+    <button type="submit">Submit</button>
+  </ul>
+</form>
+
+{% endblock %}

@@ -1,0 +1,61 @@
+/* Container and Background */
+body {
+  background-color: rgb(32, 64, 64);
+  font-family: Verdana, sans-serif;
+  color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #4a4747; /* The dark card background */
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* The List Items (Rows) */
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-row {
+  display: flex;
+  justify-content: space-between; /* This pushes name left, buttons right */
+  align-items: center;
+  background-color: #797979; /* Light grey for the rows */
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: #1a1a1a;
+}
+
+/* Aligning Buttons */
+.button-group {
+  display: flex;
+  gap: 8px;
+}
+
+.button-style {
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+}
+
+.btn-edit {
+  background-color: #007bff;
+}
+.btn-delete {
+  background-color: #e74c3c;
+}
+
+.button-style:hover {
+  filter: brightness(1.2);
+}
