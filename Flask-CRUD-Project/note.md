@@ -1,5 +1,3 @@
-PROMPT: I have written my understating of the you tube tutorial by Ghost python academy Flask CRUD Application Tutorial with SQLite: Step-by-Step Guide which I would like you to analyze, assess my understanding and knowledge of the tutorial provide constructive feedback. Do not include big picture, real-world use cases, analogies, just focus on this tutorial.
-
 # PROJECT INTRODUCTION:
 A tutorial on user management system which will use flask, SQlite3, python, jinja template, html and css in windows 11 home os and VS Code ID environment.
 
